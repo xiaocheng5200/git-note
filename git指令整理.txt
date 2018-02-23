@@ -1,0 +1,19 @@
+事例文件为readme.txt
+
+1. $ mkdir learngit							创建名为learngit的文件夹
+2. $ cd learngit 							进入learngit文件夹
+3. $ pwd 									用于显示当前目录
+4. $ git init								把这个目录变成Git可以管理的仓库
+5. $ git add readme.txt 					把readme.txt文件添加到仓库
+6. $ git commit -m "wrote a readme file"	把文件提交到仓库 -m表示注释
+7. $ git status								可以让我们时刻掌握仓库当前的状态
+8. $ git diff								看看具体修改了什么内容
+9. $ git log	
+   $ git log --pretty=oneline(精简版)		显示从最近到最远的提交日志
+10.$ git reset --hard HEAD^					回退到上一个版本,上上一个版本就是HEAD^^，当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100
+11.$ git reset --hard commit id				回到具体的版本
+12.$ git reflog								用来记录你的每一次命令
+13.$ git checkout -- readme.txt				让这个文件回到最近一次git commit或git add时的状态
+14.$ git reset HEAD readme.txt				把暂存区的修改撤销掉
+15.$ git rm									用于删除一个文件
+
