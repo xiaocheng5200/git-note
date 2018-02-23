@@ -16,4 +16,7 @@
 13.$ git checkout -- readme.txt				让这个文件回到最近一次git commit或git add时的状态
 14.$ git reset HEAD readme.txt				把暂存区的修改撤销掉
 15.$ git rm									用于删除一个文件
+16.$ git remote add origin git@github.com:xiaocheng5200/git-note.git  添加远程git库
+17.$ git remote rm origin 					删除远程git库
+18.$ git push -u origin master				第一次推送master分支的所有内容	
 
